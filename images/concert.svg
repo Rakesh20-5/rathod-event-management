@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="concertGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a0033;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#330066;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="spotLight" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#ffff00;stop-opacity:0.9" />
+      <stop offset="100%" style="stop-color:#ff6600;stop-opacity:0" />
+    </radialGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#concertGrad)"/>
+  <circle cx="200" cy="100" r="150" fill="url(#spotLight)" opacity="0.6"/>
+  <circle cx="400" cy="80" r="180" fill="url(#spotLight)" opacity="0.5"/>
+  <circle cx="600" cy="100" r="150" fill="url(#spotLight)" opacity="0.6"/>
+  <line x1="200" y1="0" x2="150" y2="250" stroke="#ffff00" stroke-width="3" opacity="0.5"/>
+  <line x1="400" y1="0" x2="400" y2="280" stroke="#ff00ff" stroke-width="4" opacity="0.5"/>
+  <line x1="600" y1="0" x2="650" y2="250" stroke="#00ffff" stroke-width="3" opacity="0.5"/>
+  <rect x="100" y="350" width="600" height="150" fill="#111111" opacity="0.9"/>
+  <rect x="100" y="350" width="600" height="20" fill="#d4af37" opacity="0.9"/>
+  <g opacity="0.7">
+    <circle cx="150" cy="480" r="12" fill="#ff1493"/>
+    <circle cx="200" cy="500" r="12" fill="#00bfff"/>
+    <circle cx="250" cy="490" r="12" fill="#ffff00"/>
+    <circle cx="300" cy="510" r="12" fill="#00ff00"/>
+    <circle cx="400" cy="520" r="12" fill="#ff1493"/>
+    <circle cx="500" cy="510" r="12" fill="#00bfff"/>
+    <circle cx="550" cy="490" r="12" fill="#ffff00"/>
+    <circle cx="600" cy="500" r="12" fill="#00ff00"/>
+    <circle cx="650" cy="480" r="12" fill="#ff1493"/>
+  </g>
+  <text x="300" y="200" font-size="40" fill="#ff00ff" opacity="0.6">♪</text>
+  <text x="500" y="180" font-size="40" fill="#00ffff" opacity="0.6">♫</text>
+  <text x="350" y="280" font-size="40" fill="#ffff00" opacity="0.6">♪</text>
+  <text x="400" y="570" font-size="36" font-weight="bold" fill="#d4af37" text-anchor="middle">LIVE CONCERTS</text>
+</svg>
